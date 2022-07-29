@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="assets/css/style_DashBoard.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name=""></ion-icon>
+                        </span>
+                        <span class="title">لوحة التحكم</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../Dashboard/MyProfile.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">معلوماتي</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../Dashboard/Teachers.html">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">المُدرسين</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../Dashboard/Students.html">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="title">الطلاب</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">المواد</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">حلقات العلم</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <span class="title">تسجيل الخروج</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../index.html">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">العودة للصفحة الرئيسية</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="ابحث هنا">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/customer01.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">الاسم:</div>
+                        <div class="cardName">شام اللحام</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name=""></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">البريد الإلكتروني:</div>
+                        <div class="cardName">Sham@gmail.com</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name=""></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">رقم المراسلة:</div>
+                        <div class="cardName">0949367412</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name=""></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">مواليد:</div>
+                        <div class="cardName">2002-1-1</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name=""></ion-icon>
+                    </div>
+                </div>
+                <button onclick="validateForm()">تعديل البيانات</button>
+            </div>
+
+            <!-- ================ Order Details List ================= -->
+                <!-- ================= New Customers ================ -->
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
