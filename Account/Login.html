@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+          <div class="login">
+            <div class="login-header">
+              <h3>أدخل معلوماتك</h3>
+            </div>
+          </div>
+          <form id="login" class="formSignup" name="login" onsubmit="validateForm()">
+            <input type="text" id="username" name="username" placeholder="اسم المستخدم"/>
+            <input type="password" id="password" name="password" placeholder="كلمة السر"/>
+            <button onclick="validateForm()">تسجيل الدخول</button>
+            <span id="error"></span>
+            <p class="message">هل لديك حساب بالفعل؟<a href="SignUp.html">إنشاء حساب</a></p>
+          </form>
+        </div>
+        <button class="back" ><a rel="stylesheet" href="../index.html">العودة للصفحة الرئيسية</a></button>
+      </div>
+      <script src="main.js"> 
+      </script>  
+</body>
+</html>
